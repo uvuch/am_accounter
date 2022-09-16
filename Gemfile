@@ -52,11 +52,13 @@ gem 'bootsnap', require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'brakeman'
   gem 'bundler-audit'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rubocop'
   gem 'rubocop-discourse'   # github CI uses discourse
   gem 'rubocop-rails'
+  gem 'simplecov'
 end
 
 group :development do

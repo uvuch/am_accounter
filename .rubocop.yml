@@ -4,6 +4,7 @@ Style/Documentation:
 AllCops:
   TargetRubyVersion: 3.0
   NewCops: enable
+  SuggestExtensions: false
   Exclude:
     - bin/**/*
     - db/schema.rb
