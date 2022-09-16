@@ -1,7 +1,14 @@
 Style/Documentation:
     Enabled: false
+
 AllCops:
+  TargetRubyVersion: 3.0
   NewCops: enable
   Exclude:
-    - bin/**
+    - bin/**/*
     - db/schema.rb
+    - vendor/**/*
+
+inherit_gem:
+  rubocop-discourse: default.yml
+
