@@ -1,0 +1,18 @@
+<h1>My Aircraft</h1>
+
+<% if @aircraft.any? %>
+    <table>
+        <thead>
+            <tr>
+                <th>AC Number</th>
+                <th>Fuel Consumption</th>
+                <th>CO2</th>
+                <th>Speed</th>
+                <th>Distance</th>
+                <th>Runway Length</th>
+            </tr>
+        </thead>
+    </table>
+<% else %>
+    <p>There are no aircraft in your fleet at the present time</p>
+<% end %>

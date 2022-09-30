@@ -74,9 +74,12 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem 'byebug'
   gem 'capybara'
-  gem 'cucumber'
-  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner-active_record'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '6.0.0.rc1'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
