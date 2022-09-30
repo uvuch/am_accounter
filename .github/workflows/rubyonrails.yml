@@ -37,11 +37,8 @@ jobs:
       - name: Set up database schema
         run: bin/rails db:schema:load
       # Add or replace test runners here
-      - name: Run Cucumber tests
-        run: bundle exec cucumber
-      - name: Run Rspec tests
+      - name: Run tests
         run: bin/rake
-      
 
   lint:
     runs-on: ubuntu-latest

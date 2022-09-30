@@ -19,8 +19,10 @@ Feature: Aircraft List
     Then I can see aircraft table
     And I do not see "There are no aircraft in your fleet at the present time" message
 
-    Scenario: I have one aircraft
-    Then I can see aircraft data in the table
+    # Scenario: I have one aircraft
+    # Given an aircraft
+    # When I open aircraft list page
+    # Then I can see aircraft data in the table
 
-    Scenario: I have two aircraft
-    Then I can see both aircraft data in the table
+    # Scenario: I have two aircraft
+    # Then I can see both aircraft data in the table
